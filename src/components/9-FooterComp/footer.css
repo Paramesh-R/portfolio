@@ -1,0 +1,55 @@
+.footer {
+    background-color: #333333;
+    color: white;
+    padding: 1rem 0;
+}
+
+
+.footer__text {
+    color: #767B7B;
+    font-size: 13px;
+}
+
+.footer__text a {
+    color: #9fa2a2;
+    font-size: 13px;
+    transition: all 0.5s;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.footer__text a:hover,
+a:active {
+    color: white;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+}
+
+
+footer div hr {
+    border: 0;
+    border-top: 2px solid gray;
+    margin: 1rem auto;
+    width: 40%;
+}
+
+.social-links a {
+    font-size: 2rem;
+    width: 5rem;
+    height: 5rem;
+    transition: all 0.2s ease-in;
+}
+
+.social-links a:hover {
+    font-size: 2.5rem;
+    transform: translateY(-2px);
+}
+
+.back-to-top {
+    color: #767B7B;
+    transition: all 0.5s ease-in;
+}
+
+.back-to-top:hover {
+    color: white;
+    transform: translateY(-1px);
+}
