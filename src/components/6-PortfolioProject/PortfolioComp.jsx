@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-const CCard = () => {
+/* const CCard = () => {
     return (
         <div className="col-sm-5 mb-5">
             <div className="card">
@@ -20,7 +20,7 @@ const CCard = () => {
         </div>
 
     )
-}
+} */
 const CCard1 = () => {
     return (
         <div className="col-sm-5 mb-5">
