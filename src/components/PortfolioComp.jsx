@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import blogApp from "../assets/images/blogapp.PNG"
-import ProjectCard from './Legacy/ProjectCard'
+
 /* const CCard = () => {
     return (
         <div className="col-sm-5 mb-5">
