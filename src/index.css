@@ -16,6 +16,7 @@ code {
 
 * {
   font-family: "Questrial", sans-serif;
+  scroll-behavior: smooth;
 }
 .App{
   background-color: #FAFAFA;
