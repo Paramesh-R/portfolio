@@ -5,7 +5,6 @@ import { useEffect } from 'react';
 
 const Banner = () => {
 
-
     useEffect(() => {
         AOS.init();
         AOS.refresh();
@@ -22,7 +21,6 @@ const Banner = () => {
                     px-5 mb-0 rounded-3
                     "
                 >
-
                     <div
                         className="container-fluid py-5 
                         d-flex flex-column align-items-center justify-content-center

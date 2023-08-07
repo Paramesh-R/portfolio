@@ -8,13 +8,7 @@ const ContactMe = () => {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
 
-    /*  const handleSubmit = (e) => {
-         e.preventDefault();
-         alert(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`);
-         // Send form data to server or API endpoint
-     };
-  */
-
+   
 
     /* ---------------EMAIL JS---------------------------- */
     const form = useRef();
@@ -22,12 +16,18 @@ const ContactMe = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_hwvn6cr', 'template_9ioy01s', form.current, '1Y-M5BznapUmk-v3X')
+        emailjs.sendForm(
+            process.env.REACT_APP_serviceID,
+            process.env.REACT_APP_templateID,
+            form.current,
+            process.env.REACT_APP_publicKey
+        )
             .then((result) => {
                 console.log(result.text);
                 e.target.reset();
-                
+
                 alert("Email Sent Successfully")
+
                 // Reset Form
                 setName("");
                 setEmail("");
@@ -46,13 +46,13 @@ const ContactMe = () => {
 
     return (
         <>
-            <div className="container" id='contact'>
+            <div className="container-fluid bg-light" id='contact'>
                 <div className="card bg-light pb-3 my-4 border-0" >
                     {/*--------------------------- BEGIN: SECTION - Header - Contact Us ---------------------------*/}
                     <section className="py-lg-5 py-3 bg-light d-flex flex-column justify-content-center mt-1">
                         <div className="container z-2">
                             <div className="row justify-content-center text-center align-items-center">
-                                <div className="col-xl-10 col-lg-10 col-md-10"  data-aos="fade-in" data-aos-duration="1000">
+                                <div className="col-xl-10 col-lg-10 col-md-10" data-aos="fade-in" data-aos-duration="1000">
                                     <h1 className="display-1 mb-lg-3 font-weight-bold">Contact <span className='text-warning'>Me.</span></h1>
                                     <p className="lead px-xl-5 mb-lg-4">Please feel free to drop me a line</p>
                                 </div>

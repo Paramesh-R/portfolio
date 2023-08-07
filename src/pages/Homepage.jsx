@@ -4,7 +4,7 @@ import Banner from "../components/Banner"
 import AboutMe from "../components/AboutMe"
 import TechStack from "../components/TechStack"
 import Experience from "../components/Experience"
-import PortfolioComp from "../components/PortfolioComp"
+import ProjectsComponent from "../components/ProjectsComponent"
 import ContactMe from '../components/ContactMe'
 import FooterGrey from "../components/FooterComp/FooterGrey"
 import LoadingSpinner from "../components/LoadingSpinner/LoadingSpinner"
@@ -15,7 +15,7 @@ import { useEffect } from 'react';
 
 
 const Homepage = () => {
-    
+
     const [loading, setLoading] = useState(true);
     useEffect(() => {
         setLoading(false);
@@ -25,16 +25,16 @@ const Homepage = () => {
             {
                 !loading
                     ? (
-                        <div>
+                        <>
                             <Navbar1 />
                             <Banner />
                             <AboutMe />
                             <TechStack />
+                            <ProjectsComponent />
                             <Experience />
-                            <PortfolioComp />
                             <ContactMe />
                             <FooterGrey />
-                        </div>)
+                        </>)
                     : (
                         <LoadingSpinner />
                     )

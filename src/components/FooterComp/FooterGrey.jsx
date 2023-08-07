@@ -6,26 +6,37 @@ const FooterGrey = () => {
         <>
             <footer className="footer navbar-static-bottom ">
                 <div className="container  pt-1">
-                    {/* Back to top */}
+
+                    {/* Back to top chevron*/}
                     <a rel="noreferrer" href="#top" className="back-to-top  p-1 ">
-                        {/* <i className="fa fa-angle-up fa-2x " aria-hidden="true"></i> */}
                         <Icon icon="uim:angle-up" width={"3rem"} />
                     </a>
+
+                    {/* Social Link */}
                     <div className="social-links d-flex flex-row justify-content-center ">
-                        {/* <a rel="noreferrer" href="#!" target="_blank" className=' d-flex flex-column justify-content-center align-items-center text-white'>
-                            <FaTwitter />
-                        </a> */}
-                        <a rel="noreferrer" href="https://github.com/Paramesh-R" target="_blank" className=' d-flex flex-column justify-content-center align-items-center text-white'>
+
+                        {/* Github Link */}
+                        <a
+                            rel="noreferrer"
+                            href="https://github.com/Paramesh-R"
+                            target="_blank"
+                            className=' d-flex flex-column justify-content-center align-items-center text-white'>
                             <Icon icon="ant-design:github-outlined" />
                         </a>
-                        <a rel="noreferrer" href="http://www.linkedin.com/in/paramesh-r" target="_blank" className=' d-flex flex-column justify-content-center align-items-center text-white'>
+
+                        {/* Linkedin */}
+                        <a
+                            rel="noreferrer"
+                            href="http://www.linkedin.com/in/paramesh-r"
+                            target="_blank"
+                            className='d-flex flex-column justify-content-center align-items-center text-white'>
                             <Icon icon="mdi:linkedin" />
                         </a>
                     </div>
 
-                    <hr />
+                    <hr />{/* --------------------------------------------- */}
 
-                    {/* <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it --> */}
+                    {/* Footer Text */}
                     <p className="footer__text">
                         {/* © {new Date().getFullYear()} -  */}
                         Built using React by
@@ -37,8 +48,6 @@ const FooterGrey = () => {
                             Parameswaran R
                         </a>
                     </p>
-
-
                 </div>
             </footer>
         </>
