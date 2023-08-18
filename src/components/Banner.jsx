@@ -30,6 +30,8 @@ const Banner = () => {
                         <h1 className="display-5 fw-bold word-break">Hi, I'm Parameswaran</h1>
                         <p className="col-md-8 fs-4">MERN Stack developer</p>
                         <a className="btn btn-secondary btn-lg" type="button" href="#about">Know more</a>
+
+
                     </div>
                 </div>
             </header>
@@ -37,6 +39,7 @@ const Banner = () => {
 
         </>
     )
+
 }
 
 export default Banner

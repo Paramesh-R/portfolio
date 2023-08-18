@@ -1,6 +1,7 @@
 import { Container } from "react-bootstrap"
 import FullViewComp from "./FullViewComp"
-import profile1 from "../assets/images/profile1.png"
+const profile_src = "/assets/images/profile3.png"
+
 
 const AboutMe = () => {
     return (
@@ -13,7 +14,7 @@ const AboutMe = () => {
                         data-aos-duration="800"
                     >
                         <img
-                            src={profile1}
+                            src={profile_src}
                             alt="user"
                             className='rounded p-0 float-start me-md-2'
                             style={{ width: '270px' }}

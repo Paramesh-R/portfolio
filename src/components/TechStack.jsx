@@ -57,9 +57,9 @@ const TechStack = () => {
                                                     key={item.name}
                                                     className=" col-4 col-md-3 col-lg-2
                                                                 d-flex flex-column align-items-center justify-content-around
-                                                                my-2 mx-1"
+                                                                my-2 mx-1 mb-5"
                                                     data-aos="fade-up"
-                                                    data-aos-duration="800"
+                                                    data-aos-duration="1000"
                                                 >
                                                     <Icon icon={item.icon} width="90px" height="90px" className="rounded" />
                                                     <span>{item.name}</span >

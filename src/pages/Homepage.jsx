@@ -4,7 +4,7 @@ import Banner from "../components/Banner"
 import AboutMe from "../components/AboutMe"
 import TechStack from "../components/TechStack"
 import Experience from "../components/Experience"
-import ProjectsComponent from "../components/ProjectsComponent"
+import ProjectsComponent from "../components/Projects/ProjectsComponent"
 import ContactMe from '../components/ContactMe'
 import FooterGrey from "../components/FooterComp/FooterGrey"
 import LoadingSpinner from "../components/LoadingSpinner/LoadingSpinner"
