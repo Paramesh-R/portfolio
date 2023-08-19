@@ -30,6 +30,17 @@ const AboutMe = () => {
                                 ground up. I have a keen interest in Web Development and I'm always seeking new knowledge and experiences to broaden my perspective and enhance my skills.
                             </p>
 
+                           
+                            <a
+                                className="btn btn-secondary btn-lg"
+                                type="button"
+                                target='_blank'
+                                rel="noreferrer"
+                                href="https://drive.google.com/file/d/1-XeBDXaVV-DDJ33ekAl852h-jDZvzvrH/view?usp=drive_link"
+                            >
+                                View Resume
+                            </a>
+
                         </div>
                     </div>
 
