@@ -26,8 +26,9 @@ const AboutMe = () => {
 
                             {/* Description */}
                             <p className="lead px-xl-5 mb-lg-4" style={{ textAlign: "justify" }}>
-                                I build applications for the web from the
-                                ground up. I have a keen interest in Web Development and I'm always seeking new knowledge and experiences to broaden my perspective and enhance my skills.
+                                {/* I build applications for the web from the
+                                ground up. I have a keen interest in Web Development and I'm always seeking new knowledge and experiences to broaden my perspective and enhance my skills. */}
+                                I create web applications from the ground up. I have a strong interest in web development and am constantly looking for new information and experiences to widen my horizons and improve my abilities.
                             </p>
 
                            
